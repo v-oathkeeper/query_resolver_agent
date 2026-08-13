@@ -1,0 +1,21 @@
+{
+  "name": "n1-query-sandbox",
+  "version": "1.0.0",
+  "description": "A mock Express/MongoDB backend with a deliberate N+1 query bottleneck for the autonomous resolver agent.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
