@@ -1,0 +1,3 @@
+# k6 result output files (large, machine-generated — exclude from git)
+load_tests/results_*.json
+load_tests/summary_*.json
